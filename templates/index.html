@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>White Siberia</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a class="logo" href="#home">White Siberia</a>
+
+    <button class="burger" id="burgerBtn" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav nav--desktop">
+      <a href="#about">О компании</a>
+      <a href="#products">Модели</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <div class="overlay" id="overlay"></div>
+
+  <nav class="nav nav--mobile" id="mobileNav" aria-hidden="true">
+    <a href="#about" class="mobile-link">О компании</a>
+    <a href="#products" class="mobile-link">Модели</a>
+    <a href="#gallery" class="mobile-link">Галерея</a>
+    <a href="#contacts" class="mobile-link">Контакты</a>
+  </nav>
+
+
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <h1>Электросамокаты нового поколения</h1>
+      <p>Технологии, надёжность и стиль для города.</p>
+      <a class="cta" href="#products">Смотреть модели</a>
+    </div>
+
+    <div class="hero__image">
+      <img src="/templates/image/8.jpg" alt="Электросамокат White Siberia" />
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>О компании</h2>
+      <p>
+        White Siberia — это надежные электросамокаты для динамичной городской жизни. Мы объединили современные технологии и продуманный дизайн, 
+        чтобы сделать ваши ежедневные поездки комфортными, безопасными и по-настоящему удовольствительными. 
+        От компактных моделей до премиальных новинок — каждый самокат White Siberia создан, 
+        чтобы менять городскую мобильность к лучшему.
+      </p>
+    </section>
+
+
+    <section id="products" class="card">
+      <h2>Популярные модели</h2>
+
+      <div class="grid">
+        <article class="product">
+          <div class="product__img">
+            <img src="/templates/image/7.jpg" alt="White Siberia Mini" />
+          </div>
+          <div class="product__body">
+            <h3>White Siberia Mini</h3>
+            <p>Компактный вариант для ежедневных поездок.</p>
+            <button>Подробнее</button>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product__img">
+            <img src="/templates/image/2.jpg" alt="White Siberia Pro" />
+          </div>
+          <div class="product__body">
+            <h3>White Siberia Pro</h3>
+            <p>Баланс мощности и дальности хода.</p>
+            <button>Подробнее</button>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product__img">
+            <img src="/templates/image/1.jpg" alt="White Siberia Ultra" />
+          </div>
+          <div class="product__body">
+            <h3>White Siberia Ultra</h3>
+            <p>Премиальный комфорт и высокая скорость.</p>
+            <button>Подробнее</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <section id="gallery" class="card">
+      <h2>Галерея</h2>
+
+      <div class="gallery">
+        <img src="/templates/image/3.jpg" alt="White Siberia фото 1">
+        <img src="/templates/image/4.jpg" alt="White Siberia фото 2">
+        <img src="/templates/image/5.jpg" alt="White Siberia фото 3">
+        <img src="/templates/image/6.jpg" alt="White Siberia фото 4">
+      </div>
+    </section>
+
+    <section id="contacts" class="card">
+      <h2>Контакты</h2>
+      <p>Email: info@whitesiberia.ru</p>
+      <p>Телефон: +7 (000) 000-00-00</p>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 White Siberia</footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
